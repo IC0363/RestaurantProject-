@@ -4,16 +4,17 @@ public class Resturaunt {
         List.addFood("Fish");
         List.addFood("Milk");
         List.addFood("Beef");
+        List.addFood("Bread");
 
         List.display();
-        Salary waiter = new Salary();
-        System.out.println("Pay and hours for waiter: " +waiter);
-        Salary chef = new Salary(10, 20); 
-        System.out.println("Pay and hours for chef: " +chef);
-        Salary HeadChef = new Salary(10, 30); 
-        System.out.println("Pay and hours for chef: " +HeadChef);
-        Salary Manager = new Salary(10, 35.50); 
-        System.out.println("Pay and hours for chef: " +Manager);
+        Salary waiter = new Salary(8,15,"Emily","Waitress");
+        System.out.println(waiter);
+        Salary chef = new Salary(10, 25, "John", "Chef" ); 
+        System.out.println(chef);
+        Salary HeadChef = new Salary(10, 30, "Joe", "Head Chef"); 
+        System.out.println(HeadChef);
+        Salary Manager = new Salary(10, 35.50, "Bob", "Manager"); 
+        System.out.println(Manager);
 
 
 
